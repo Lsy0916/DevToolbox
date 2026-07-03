@@ -1,0 +1,21 @@
+/* Element Plus 细节样式覆盖：黑白极简 + 蓝色点缀 */
+
+/* 按钮圆角收敛 */
+.el-button {
+  --el-border-radius-base: 6px;
+}
+
+/* 输入框聚焦时用主色 */
+.el-input__wrapper.is-focus {
+  box-shadow: 0 0 0 1px var(--el-color-primary) inset;
+}
+
+/* 标签页下划线 */
+.el-tabs__active-bar {
+  background-color: var(--el-color-primary);
+}
+
+/* 表格行 hover */
+.el-table__row:hover > td {
+  background-color: #f8fafc;
+}
