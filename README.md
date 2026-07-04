@@ -87,17 +87,6 @@ npm run test:coverage
 
 The built `dist/` folder is a static site that can be hosted on any static hosting service (GitHub Pages, Cloudflare Pages, Netlify, Vercel).
 
-### GitHub Pages
-
-This project is configured with GitHub Actions for automatic deployment to GitHub Pages. Every push to the `main` branch triggers the deployment workflow (`.github/workflows/deploy.yml`).
-
-**To enable GitHub Pages:**
-1. Go to repository **Settings → Pages**
-2. Under **Build and deployment**, set **Source** to **GitHub Actions**
-3. Push to `main` — the workflow will build and deploy automatically
-
-**URL:** [https://lsy0916.github.io/devtoolbox/](https://lsy0916.github.io/devtoolbox/)
-
 ### Online Access
 
 With an internet connection, visit the [deployed site](https://lsy0916.github.io/devtoolbox/) and use all tools directly in the browser. No installation required.
@@ -144,24 +133,6 @@ DevToolbox/
 ├── vite.config.ts
 └── vitest.config.ts
 ```
-
-### Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-tool`)
-3. Write or update tests for your changes
-4. Ensure all tests pass (`npm test`) and types check (`npm run type-check`)
-5. Commit with a clear message
-6. Open a Pull Request
-
-**Guidelines:**
-- Keep tools fully client-side — no backend dependencies
-- Maintain TypeScript strict mode (no `any`)
-- Add i18n keys for both `zh-CN` and `en-US`
-- Write unit tests for utility functions
-- Follow the existing code style
 
 ### Privacy
 
@@ -261,17 +232,6 @@ npm run test:coverage
 
 构建产物 `dist/` 是纯静态站点，可托管在任何静态托管服务上（GitHub Pages、Cloudflare Pages、Netlify、Vercel）。
 
-### GitHub Pages 部署
-
-本项目已配置 GitHub Actions 自动部署到 GitHub Pages。每次推送到 `main` 分支会自动触发部署工作流（`.github/workflows/deploy.yml`）。
-
-**启用 GitHub Pages 步骤：**
-1. 进入仓库 **Settings → Pages**
-2. 在 **Build and deployment** 下，将 **Source** 设为 **GitHub Actions**
-3. 推送到 `main` 分支 — 工作流将自动构建并部署
-
-**访问地址：** [https://lsy0916.github.io/devtoolbox/](https://lsy0916.github.io/devtoolbox/)
-
 ### 在线访问
 
 有网络时，直接访问 [部署站点](https://lsy0916.github.io/devtoolbox/) 即可使用全部工具，无需安装。
@@ -318,24 +278,6 @@ DevToolbox/
 ├── vite.config.ts
 └── vitest.config.ts
 ```
-
-### 贡献指南
-
-欢迎贡献！请按以下步骤操作：
-
-1. Fork 本仓库
-2. 创建功能分支（`git checkout -b feature/amazing-tool`）
-3. 为你的改动编写或更新测试
-4. 确保所有测试通过（`npm test`）且类型检查无误（`npm run type-check`）
-5. 使用清晰的消息提交
-6. 提交 Pull Request
-
-**规范：**
-- 保持工具完全客户端运行 —— 不依赖后端
-- 维持 TypeScript 严格模式（禁用 `any`）
-- 为 `zh-CN` 和 `en-US` 同时添加 i18n key
-- 为工具函数编写单元测试
-- 遵循现有代码风格
 
 ### 隐私说明
 
