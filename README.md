@@ -18,7 +18,7 @@
 
 DevToolbox is a browser-based developer toolkit. Every tool runs entirely client-side — no backend, no telemetry, no data leaves the browser. Deploy it on GitHub Pages for zero-cost hosting, or clone and run locally for offline use.
 
-**Live Demo:** [https://lsy0916.github.io/devtoolbox/](https://lsy0916.github.io/devtoolbox/)
+**Live Demo:** [https://lsy0916.github.io/DevToolbox/](https://lsy0916.github.io/DevToolbox/)
 
 ### Features
 
@@ -89,7 +89,7 @@ The built `dist/` folder is a static site that can be hosted on any static hosti
 
 ### Online Access
 
-With an internet connection, visit the [deployed site](https://lsy0916.github.io/devtoolbox/) and use all tools directly in the browser. No installation required.
+With an internet connection, visit the [deployed site](https://lsy0916.github.io/DevToolbox/) and use all tools directly in the browser. No installation required.
 
 ### Offline Use
 
@@ -163,7 +163,7 @@ Personal learning, research, and non-commercial use are permitted. Commercial us
 
 DevToolbox 是一个纯浏览器端的开发者工具箱。所有工具完全在客户端运行 —— 无后端、无埋点、数据不离开浏览器。部署到 GitHub Pages 零成本运行，或克隆到本地离线使用。
 
-**在线访问：** [https://lsy0916.github.io/devtoolbox/](https://lsy0916.github.io/devtoolbox/)
+**在线访问：** [https://lsy0916.github.io/DevToolbox/](https://lsy0916.github.io/DevToolbox/)
 
 ### 核心特性
 
@@ -234,7 +234,7 @@ npm run test:coverage
 
 ### 在线访问
 
-有网络时，直接访问 [部署站点](https://lsy0916.github.io/devtoolbox/) 即可使用全部工具，无需安装。
+有网络时，直接访问 [部署站点](https://lsy0916.github.io/DevToolbox/) 即可使用全部工具，无需安装。
 
 ### 离线使用
 

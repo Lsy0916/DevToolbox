@@ -2,7 +2,7 @@
  * Vite 构建配置
  *
  * 关键配置说明：
- * - base: '/devtoolbox/' — GitHub Pages 子路径部署，所有资源 URL 前缀
+ * - base: '/DevToolbox/' — GitHub Pages 子路径部署，所有资源 URL 前缀（须与仓库大小写一致）
  * - AutoImport + Components — Element Plus 按需自动导入，无需手动 import
  * - worker.format: 'es' — Monaco worker 使用 ES 模块格式
  * - manualChunks — 将大型依赖拆分为独立 chunk，优化首屏加载：
@@ -20,7 +20,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
-  base: '/devtoolbox/',
+  base: '/DevToolbox/',
   plugins: [
     vue(),
     AutoImport({
